@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0 1rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +12,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.restaurantsList {
+  display: grid;
+  gap: 1rem;
+}
+
+.restaurant {
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 1rem;
+  word-break: break-word;
+}
+
+.LoadRestaurantsButton {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.favoriteTogglebutton {
+  border: none;
+  padding: 0;
+  line-height: 0;
+  background: inherit;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-bottom: 1rem;
+}
+
+.singleRestaurantPage {
+  margin-top: 1rem;
+}
+
+
