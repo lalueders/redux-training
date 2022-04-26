@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,96 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar {
+  background: orange;
+  padding: 1rem;
+}
+
+.navbar-links {
+  margin: 0 1rem;
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+.restaurantsList {
+  margin: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+.restaurantCard {
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: 4px;
+  word-break: break-word;
+}
+
+.loadMoreButton {
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+}
+
+.favoriteButton {
+  border: none;
+  background: inherit;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;;
+}
+.rating {
+  display: flex;
+  gap: 5px;
+}
+.singleRestaurantPage {
+  margin: 2rem 1rem;
+}
+
+.about {
+  margin: 1rem;
+}
+/* Image Slider  */
+
+.slider {
+  position: relative; 
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ;
+}
+
+.image {
+  height: 50vh;
+  border-radius: 10px
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  z-index: 10;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  z-index: 10;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active{
+  opacity: 1;
+  transition-duration: 1s;
+
 }
