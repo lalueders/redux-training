@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  background: orange;
+  padding: 2rem;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+.restaurantList {
+  margin: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.restaurantCard {
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.likeButton {
+  border: none;
+  background: inherit;
+}
